@@ -1,0 +1,10 @@
+D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles/edit_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles/rebuild_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Framework/CMakeFiles/edit_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Framework/CMakeFiles/rebuild_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common/CMakeFiles/Common.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common/CMakeFiles/edit_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common/CMakeFiles/rebuild_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Empty/CMakeFiles/Empty.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Empty/CMakeFiles/edit_cache.dir
+D:/WorkStudio/renderingEngine/OmniRender/build/Empty/CMakeFiles/rebuild_cache.dir
