@@ -84,11 +84,26 @@ Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common.dir/BaseApplication.cpp.s"
 	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && G:/Settings/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/BaseApplication.cpp -o CMakeFiles/Common.dir/BaseApplication.cpp.s
 
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj: Framework/Common/CMakeFiles/Common.dir/flags.make
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj: Framework/Common/CMakeFiles/Common.dir/includes_CXX.rsp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj: D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/GraphicsManager.cpp
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj: Framework/Common/CMakeFiles/Common.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj"
+	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && G:/Settings/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj -MF CMakeFiles/Common.dir/GraphicsManager.cpp.obj.d -o CMakeFiles/Common.dir/GraphicsManager.cpp.obj -c D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/GraphicsManager.cpp
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Common.dir/GraphicsManager.cpp.i"
+	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && G:/Settings/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/GraphicsManager.cpp > CMakeFiles/Common.dir/GraphicsManager.cpp.i
+
+Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Common.dir/GraphicsManager.cpp.s"
+	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && G:/Settings/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/GraphicsManager.cpp -o CMakeFiles/Common.dir/GraphicsManager.cpp.s
+
 Framework/Common/CMakeFiles/Common.dir/main.cpp.obj: Framework/Common/CMakeFiles/Common.dir/flags.make
 Framework/Common/CMakeFiles/Common.dir/main.cpp.obj: Framework/Common/CMakeFiles/Common.dir/includes_CXX.rsp
 Framework/Common/CMakeFiles/Common.dir/main.cpp.obj: D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/main.cpp
 Framework/Common/CMakeFiles/Common.dir/main.cpp.obj: Framework/Common/CMakeFiles/Common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Framework/Common/CMakeFiles/Common.dir/main.cpp.obj"
 	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && G:/Settings/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Framework/Common/CMakeFiles/Common.dir/main.cpp.obj -MF CMakeFiles/Common.dir/main.cpp.obj.d -o CMakeFiles/Common.dir/main.cpp.obj -c D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/main.cpp
 
 Framework/Common/CMakeFiles/Common.dir/main.cpp.i: cmake_force
@@ -102,16 +117,18 @@ Framework/Common/CMakeFiles/Common.dir/main.cpp.s: cmake_force
 # Object files for target Common
 Common_OBJECTS = \
 "CMakeFiles/Common.dir/BaseApplication.cpp.obj" \
+"CMakeFiles/Common.dir/GraphicsManager.cpp.obj" \
 "CMakeFiles/Common.dir/main.cpp.obj"
 
 # External object files for target Common
 Common_EXTERNAL_OBJECTS =
 
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.obj
+Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/main.cpp.obj
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/build.make
 Framework/Common/libCommon.a: Framework/Common/CMakeFiles/Common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libCommon.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/WorkStudio/renderingEngine/OmniRender/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCommon.a"
 	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && $(CMAKE_COMMAND) -P CMakeFiles/Common.dir/cmake_clean_target.cmake
 	cd D:/WorkStudio/renderingEngine/OmniRender/build/Framework/Common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Common.dir/link.txt --verbose=$(VERBOSE)
 

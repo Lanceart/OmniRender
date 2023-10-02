@@ -154,6 +154,30 @@ BaseApplication.cpp.s:
 	cd D:/WorkStudio/renderingEngine/OmniRender/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.s
 .PHONY : BaseApplication.cpp.s
 
+GraphicsManager.obj: GraphicsManager.cpp.obj
+.PHONY : GraphicsManager.obj
+
+# target to build an object file
+GraphicsManager.cpp.obj:
+	cd D:/WorkStudio/renderingEngine/OmniRender/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj
+.PHONY : GraphicsManager.cpp.obj
+
+GraphicsManager.i: GraphicsManager.cpp.i
+.PHONY : GraphicsManager.i
+
+# target to preprocess a source file
+GraphicsManager.cpp.i:
+	cd D:/WorkStudio/renderingEngine/OmniRender/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.i
+.PHONY : GraphicsManager.cpp.i
+
+GraphicsManager.s: GraphicsManager.cpp.s
+.PHONY : GraphicsManager.s
+
+# target to generate assembly for a file
+GraphicsManager.cpp.s:
+	cd D:/WorkStudio/renderingEngine/OmniRender/build && $(MAKE) $(MAKESILENT) -f Framework/Common/CMakeFiles/Common.dir/build.make Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.s
+.PHONY : GraphicsManager.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -190,6 +214,9 @@ help:
 	@echo "... BaseApplication.obj"
 	@echo "... BaseApplication.i"
 	@echo "... BaseApplication.s"
+	@echo "... GraphicsManager.obj"
+	@echo "... GraphicsManager.i"
+	@echo "... GraphicsManager.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

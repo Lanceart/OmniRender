@@ -1,2 +1,2 @@
-G:/Settings/cygwin64/bin/ar.exe qc libCommon.a CMakeFiles/Common.dir/BaseApplication.cpp.obj CMakeFiles/Common.dir/main.cpp.obj
+G:/Settings/cygwin64/bin/ar.exe qc libCommon.a CMakeFiles/Common.dir/BaseApplication.cpp.obj CMakeFiles/Common.dir/GraphicsManager.cpp.obj CMakeFiles/Common.dir/main.cpp.obj
 G:/Settings/cygwin64/bin/ranlib.exe libCommon.a

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/BaseApplication.cpp" "Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.obj" "gcc" "Framework/Common/CMakeFiles/Common.dir/BaseApplication.cpp.obj.d"
+  "D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/GraphicsManager.cpp" "Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj" "gcc" "Framework/Common/CMakeFiles/Common.dir/GraphicsManager.cpp.obj.d"
   "D:/WorkStudio/renderingEngine/OmniRender/Framework/Common/main.cpp" "Framework/Common/CMakeFiles/Common.dir/main.cpp.obj" "gcc" "Framework/Common/CMakeFiles/Common.dir/main.cpp.obj.d"
   )
 
